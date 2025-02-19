@@ -6,8 +6,9 @@
 #letra B: para homens a idade aceita e entre 18 e 39 anos 
 #escreva um programa que leia ter dados de entrada: NOME,IDADE é SEXO e informe se a pessoa será aceita ou não para p serviço.
 #obs.: Para o sexo deve ser lido apenas um caractere que pode ser "f" ou "F" para feminino, "m" ou "M" para masculino qualquer coisa diferente deve ser informado
+print("Isabella Carolina de Souza")
 nome=input("Qual seu nome: ")
-idade=int(input("qual sua idade: "))
+idade=int(input("Qual sua idade: "))
 sexo=input("Qual seu sexo: ")
 if sexo == "F".lower() and idade >=21 and idade <=34:
     print("Você pode servir")
@@ -18,4 +19,4 @@ elif sexo == "M".lower() and idade >=18 and idade <=39:
 elif sexo == "m".lower() and idade >=18 and idade <=39:
     print("Você pode servir")
 else: 
-    print("Voce nao podde servir")
+    print("Voce não pode servir")

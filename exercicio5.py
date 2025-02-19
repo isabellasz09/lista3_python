@@ -3,8 +3,8 @@
 #quando o preço de custo e menor ou igual a 100, se um produto custa mais doque isso a margem bruta e de 35%
 #escreva um programa que leia o preço de custo do produto que mostre na tela qual e o seu preço de venda com duas casas decimais
 print("Isabella Carolina de Souza")
-preco= input("Qual é o valor do produto: ")
-if  preco <= 100:
+preco= int(input("Qual é o valor do produto: "))
+if preco <= 100:
     margem = (preco*0.45)
     print("O preço do produto {}".format(margem))
 else:

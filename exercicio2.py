@@ -11,7 +11,6 @@
 print("Isabella Carolina de Souza")
 lutador=str(input("Nome do lutador:"))
 peso=float(input("Digite o peso: "))
-print(lutador)
 if peso >= 52 and peso < 65:
     print("{} sua categoria é pena".format(lutador))
 elif peso >= 65 and peso < 72:
@@ -22,7 +21,7 @@ elif peso >= 79 and peso < 86:
     print("{} sua categoria é meio medio".format(lutador))
 elif peso >= 86 and peso < 90:
     print("{} sua categoria é medio".format(lutador))
-elif peso >= 86 and peso < 100:
+elif peso >= 90 and peso < 100:
     print("{} sua categoria é meio pesado".format(lutador))
 elif peso >= 100:
     print("{} sua categoria é pesado".format(lutador))
